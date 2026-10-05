@@ -9,7 +9,7 @@ on:
 
 jobs:
  deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu24.04 #lastest ubuntu estaba dando un error asi que intente cambiar de version
     steps:
       - name: Descargar el código
         uses: actions/checkout@v4
